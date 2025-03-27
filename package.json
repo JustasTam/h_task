@@ -1,0 +1,21 @@
+{
+  "name": "h_task",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "tests": "npx playwright test temp/tests/ --config=configs/playwright.config.ts --workers=3",
+    "tests-ui": "npx playwright test temp/tests/ --project=chromium --config=configs/playwright.config.ts --workers=1 --headed"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.51.1",
+    "@types/node": "^22.13.13"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7"
+  },
+  "type": "module"
+}
