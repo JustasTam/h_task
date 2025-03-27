@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "tests": "npx playwright test temp/tests/ --config=configs/playwright.config.ts --workers=3",
-    "tests-ui": "npx playwright test temp/tests/ --project=chromium --config=configs/playwright.config.ts --workers=1 --headed"
+    "tests": "npx playwright test tests/ --config=configs/playwright.config.ts --workers=3",
+    "tests-ui": "npx playwright test tests/ --project=chromium --config=configs/playwright.config.ts --workers=1 --headed"
   },
   "keywords": [],
   "author": "",
